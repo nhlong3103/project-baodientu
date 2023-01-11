@@ -12,7 +12,8 @@ class baiviet extends Model
     protected $primarykey = 'id';
     protected $table = 'baiviet';
 
-    public function danhmuc(){
-        return $this->belongsTo(Danhmuc::class,'danhmuc_id','id');
+    public function danhmuc()
+    {
+        return $this->belongsTo(Danhmuc::class, 'danhmuc_id', 'id');
     }
 }

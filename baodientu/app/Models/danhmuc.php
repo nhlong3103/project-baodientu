@@ -12,7 +12,8 @@ class Danhmuc extends Model
     protected $primarykey = 'id';
     protected $table = 'danhmuc';
 
-    public function baiviet(){
+    public function baiviet()
+    {
         return $this->hasMany(baiviet::class);
     }
 }
