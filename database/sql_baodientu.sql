@@ -319,6 +319,9 @@ CREATE TABLE `users` (
 -- Đang đổ dữ liệu cho bảng `users`
 --
 
+--
+-- Mật khẩu tất cả các tài khoản là: okchu@123
+--
 INSERT INTO `users` (`id`, `name`, `email`, `email_verified_at`, `password`, `remember_token`, `created_at`, `updated_at`) VALUES
 (1, 'Long Nguyễn Hải', 'admin@gmail.com', NULL, '$2y$10$5Ti0a0nVafZ14NNPq2Hf4eX08mCo75l46ApUqhNyfM49WOp6zvdLa', NULL, '2022-09-22 02:51:52', '2022-09-22 02:51:52'),
 (2, 'Nguyễn Văn A', 'writer@gmail.com', NULL, '$2y$10$xvrI7V6.uRD82jYTfJEJRe3ot7sHTx06AZIN1LlZllGldCWYhOc4S', NULL, '2022-09-27 11:37:17', '2022-09-27 11:37:17'),
